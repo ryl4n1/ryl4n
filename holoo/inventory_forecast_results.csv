@@ -1,0 +1,2 @@
+SKU_ID,Avg_Daily_Sales,Prophet_Estimated_Stockout_Date,Prophet_Restock_Alert,XGB_Estimated_Stockout_Date,XGB_Restock_Alert
+SKU001,19.23,2024-03-22,No,2024-03-25,No
