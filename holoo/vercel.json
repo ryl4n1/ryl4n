@@ -1,12 +1,13 @@
 {
-  "buildCommand": "next build",
+  "version": 2,
+  "buildCommand": "cd landing-next && npm install && npm run build",
   "devCommand": "next dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "outputDirectory": ".next",
+  "outputDirectory": "landing-next/.next",
   "builds": [
     {
-      "src": "package.json",
+      "src": "landing-next/package.json",
       "use": "@vercel/next"
     }
   ]
